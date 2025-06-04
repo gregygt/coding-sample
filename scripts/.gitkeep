@@ -1,4 +1,4 @@
-## -> Code for Problem Set 4 <- ##
+## -> Code for Lopez-Osario Replication <- ##
 ## Gregy Tuerah
 # ---------------------------------------------------------------------------- #
 
@@ -32,7 +32,7 @@ df <- df %>%
          present = as.numeric(as.character(present)),
          absent = as.numeric(as.character(absent)),
          missing = as.numeric(as.character(missing)),
-         percentage_valid = as.numeric(as.character(percentage_valid)))
+         percentage_valid = as.numeric(as.character(percentage_valid))) # this is to make sure that everything is in numeric
 
 kable(df, format = "latex", 
       booktabs = TRUE,
@@ -40,7 +40,7 @@ kable(df, format = "latex",
   kable_styling(latex_options = c("hold_position", "scale_down"),
                 font_size = 8.5
   ) %>%
-  landscape()
+  landscape() # due to the table size, we need to change it into landscape
 
 # 2
 df %>%
