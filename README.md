@@ -16,12 +16,14 @@ The dataset (`lopez_osrio.xls`) has been **pre-cleaned** and combines **all 65 p
 ---
 
 ## 📁 Repository Structure
+```
 .
-├── data/                       # Cleaned .xls dataset
+├── data/                       # Cleaned .xls dataset  
 │   └── lopez_osrio.xls
-├── scripts/
-│   └── lopez-osorio-analysis.Rmd  # Main R Markdown analysis
+├── scripts/                   # R Markdown analysis file
+│   └── lopez-osorio-analysis.Rmd
 ├── README.md
+```
 ---
 
 ## 📊 What This Project Does
