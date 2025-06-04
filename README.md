@@ -71,5 +71,4 @@ In contrast, many marginal predictors flagged by the raw p-values lose significa
 ## 🧠 Author
 
 **Gregy Gustavo Tuerah**  
-MPP Candidate, University of Chicago  
-Advanced Program Evaluation — Spring 2025  
+MPP student, University of Chicago   
