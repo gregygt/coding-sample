@@ -1,7 +1,7 @@
 ---
 title: "lopez-ossorio-replication"
 author: "Gregy Gustavo Tuerah"
-date: "2025-06-04"
+date: "Today"
 output:
   pdf_document:
     toc: true
