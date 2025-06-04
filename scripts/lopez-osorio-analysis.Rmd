@@ -2,7 +2,11 @@
 title: "lopez-osario-replication"
 author: "Gregy Gustavo Tuerah"
 date: "2025-06-04"
-output: pdf_document
+output:
+  pdf_document:
+    toc: true
+    number_sections: true
+    keep_tex: true
 ---
 
 ```{r setup, include=FALSE}
@@ -14,12 +18,11 @@ library(ggplot2)    # plots
 library(knitr)      # kable()
 library(kableExtra) # LaTeX formatting for tables
 
-setwd("/Users/gregy/Documents/[Spring 2025]/Advanced Program Evaluation/Problem Sets/Problem Set 4")
 ```
 
 ```{r}
 # Opening and creating the table and dataframe
-df <- read_excel("lopez_osrio.xls")
+df <- read_excel("../data/lopez_osrio.xls") # kindly change this to the path where you save the file
 df <- df %>%
   mutate(across(c(chi_sqr, coefficient, low_cl, high_cl, 
                   present, absent, missing, percentage_valid),
