@@ -1,5 +1,5 @@
 ---
-title: "lopez-osario-replication"
+title: "lopez-ossorio-replication"
 author: "Gregy Gustavo Tuerah"
 date: "2025-06-04"
 output:
