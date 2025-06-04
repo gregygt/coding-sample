@@ -2,7 +2,7 @@
 
 # Replication of López-Osorio et al. (IPV Risk Assessment)
 
-This repository contains the R-based replication and analysis of López-Osorio et al.'s study on predictors of repeat intimate partner violence (IPV). The goal is to re-analyze the original risk assessment indicators using multiple hypothesis testing procedures, visualize statistical significance, and evaluate robustness to correction techniques like Bonferroni and Benjamini–Hochberg (FDR).
+This repository contains the R-based replication and analysis of López-Ossorio et al.'s study on predictors of repeat intimate partner violence (IPV). The goal is to re-analyze the original risk assessment indicators using multiple hypothesis testing procedures, visualize statistical significance, and evaluate robustness to correction techniques like Bonferroni and Benjamini–Hochberg (FDR).
 
 ---
 
